@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<style>
+    body {
+            background:
+            radial-gradient(black 15%, transparent 16%) 0 0,
+            radial-gradient(black 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+            background-color:#282828;
+            background-size:16px 16px;
+        }
+    #contactcard {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Ivan F Silvar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- i want to move below to the right of the nav bar-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<br>
+
+<!-- Grid column -->
+<div class="col-lg-5 mb-lg-0 mb-4" id="contactcard">
+
+    <!-- Form with header -->
+    <div class="card">
+      <div class="card-body">
+        <!-- Header -->
+        <div class="form-header blue accent-1">
+          <h3 class="mt-2"><i class="fas fa-envelope"></i> Contact Me:</h3>
+        </div>
+        <p class="dark-grey-text">Communication is KEY!</p>
+        <!-- Body -->
+        <div class="md-form">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="form-name" class="form-control">
+          <label for="form-name">Your name</label>
+        </div>
+        <div class="md-form">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="text" id="form-email" class="form-control">
+          <label for="form-email">Your email</label>
+        </div>
+        <div class="md-form">
+          <i class="fas fa-tag prefix grey-text"></i>
+          <input type="text" id="form-Subject" class="form-control">
+          <label for="form-Subject">Subject</label>
+        </div>
+        <div class="md-form">
+          <i class="fas fa-pencil-alt prefix grey-text"></i>
+          <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+          <label for="form-text">Send message</label>
+        </div>
+        <div class="text-center">
+            <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+    <!-- Form with header -->
+
+  </div>
+  <!-- Grid column -->
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
+
